@@ -1,0 +1,43 @@
+body {
+    font-family: 'Courier New', Courier, monospace; /* Font monospace seperti di terminal */
+    background-color: #000000; /* Warna background hitam */
+    color: #00FF00; /* Warna teks hijau seperti di terminal */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #111111; /* Warna container sedikit lebih terang dari background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.5); /* Efek shadow hijau */
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #00FF00; /* Warna hijau untuk tombol */
+    color: black; /* Warna teks tombol */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+button:hover {
+    background-color: #00CC00; /* Warna tombol saat di-hover */
+}
+
+.output {
+    margin-top: 20px;
+}
+
+p {
+    word-break: break-all;
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace; /* Font terminal pada output */
+}

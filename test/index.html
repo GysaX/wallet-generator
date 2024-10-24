@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generate Wallet and Mnemonic</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Generate Wallet and Mnemonic</h1>
+        <button id="generateBtn">Generate</button>
+        <div id="output" class="output">
+            <p><strong>Mnemonic:</strong></p>
+            <p id="mnemonic"></p>
+            <p><strong>Wallet Address:</strong></p>
+            <p id="walletAddress"></p>
+        </div>
+    </div>
+
+    <!-- Ethers.js CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/ethers@5.6.8/dist/ethers.umd.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
